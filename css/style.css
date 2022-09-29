@@ -9,19 +9,29 @@
     width: 100vw;
     height: 100vh;
     background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .upper-bar{
     color: white;
     font-size: small;
-    display: flex;
-    column-gap: 3px;
+    display: flex;  
     padding: .5rem .2rem;
     justify-content: end;
     min-height: fit-content;
+    height: 8vh;
+    align-items: flex-start;
+}
+.upper-bar > div{
+    display: flex;
+    column-gap: 3px;
 }
 
-.down-bar{
+.lower-bar{
+    min-height: 10vh;
+    background-color:#222222 ;
 
 }
 
@@ -54,8 +64,7 @@
 }
 
 .view-section{
-    max-height: 70vh;
-    padding: 2rem 3rem;
+    padding: 0 3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
