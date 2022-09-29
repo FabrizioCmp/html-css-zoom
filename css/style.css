@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .container{
@@ -11,9 +12,47 @@
 }
 
 .upper-bar{
-
+    color: white;
+    font-size: small;
+    display: flex;
+    column-gap: 3px;
+    padding: .5rem .2rem;
+    justify-content: end;
+    min-height: fit-content;
 }
 
 .down-bar{
 
+}
+
+.spkview-bttn{
+    display: flex; 
+    background-color: #4A4A4A; 
+    align-items: center;
+    padding: .1rem;
+    border-radius: 4px;
+    column-gap: 1px;
+}
+.spkview-bttn > img {
+    width: 13px;
+    height: 15px;
+}
+
+.grow-bttn{
+    background-color: #4A4A4A;
+    padding: .3rem;
+    display: inline-block;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.grow-bttn > img{
+    width: 13px;
+}
+
+.view-section{
+    
 }
