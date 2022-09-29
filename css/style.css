@@ -30,9 +30,11 @@
 }
 
 .lower-bar{
-    min-height: 10vh;
     background-color:#222222 ;
-
+    min-height: fit-content;
+    display: flex;
+    
+    justify-content: space-between;
 }
 
 .spkview-bttn{
@@ -69,6 +71,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: .5rem;
+    max-height: 80vh;
 }
 
 .user{
@@ -99,4 +102,41 @@
 
 .usr-label > span{
     font-size: small;
+}
+
+.botton-section{
+    display: flex;
+    color: white;
+    font-size: x-small;
+    column-gap: .7vw;
+    align-items: center;
+}
+
+.icon{
+    text-align: center;
+}
+
+.icon > img{
+    width: 30px;
+}
+
+.arrow{
+    width: 20px;
+    height: 20px;
+}
+
+.lower-group{
+    display: flex;
+    column-gap: 0.7vw;
+    padding: 1rem;
+}
+
+.end{
+    display: flex;
+    color: red;
+    justify-content: center;
+    align-items: center;
+    font-size: x-small;
+    background-color: #4A4A4A;
+    padding: 0 1rem;
 }
