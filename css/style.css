@@ -33,7 +33,7 @@
     background-color:#222222 ;
     min-height: fit-content;
     display: flex;
-    
+    margin-top: 1rem;
     justify-content: space-between;
 }
 
@@ -58,7 +58,7 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    
+   
 }
 
 .grow-bttn > img{
@@ -71,17 +71,22 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: .5rem;
-    max-height: 80vh;
+   padding: 1rem 0;
+   max-height: 80vh;
+   max-width: 1200px;
+   align-self: center;
 }
 
 .user{
     width: calc(100% / 7.2);
     display: inline-block;
     position: relative;
+    height: calc(100% /5.2);
 }
 
 .user > img{
     width: 100%;
+    height: 100%;
     display: block;
     
 }
@@ -110,6 +115,7 @@
     font-size: x-small;
     column-gap: .7vw;
     align-items: center;
+    min-height: fit-content;
 }
 
 .icon{
